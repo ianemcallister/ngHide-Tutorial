@@ -1,0 +1,16 @@
+
+
+<!-- FOR BOOLEAN VALUES =============================== -->
+<!-- for true values -->
+<div ng-show="hello">this is a welcome message</div>   
+
+ <!-- can also show if a value is false --> 
+<div ng-show="!hello">this is a goodbye message</div>   
+
+<!-- FOR EXPRESSIONS =============================== -->
+<!-- show if the appState variable is a string of goodbye -->
+<div ng-show="appState == 'goodbye'">this is a goodbye message</div> 
+
+<!-- FOR FUNCTIONS =============================== -->
+<!-- use a function defined in your controller to evaluate if true or false -->
+<div ng-hide="checkSomething()"></div> 
